@@ -1,4 +1,5 @@
 import os 
+# ^^ dis is how you access environment vars in Python: os.environ 
 
 from flask import Flask
 app = Flask(__name__)
